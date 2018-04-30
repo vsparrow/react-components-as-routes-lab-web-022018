@@ -1,12 +1,17 @@
 import React from 'react';
 import { movies } from '../data';
 
-const Movies = () => {
+const Movies = (props) => {
+  // movieInfo=()=>{
+  //   // return this.props.
+  // }
   return (
     <div>
-        {/*{code here}*/}
+    Movies Page
+
     </div>
   );
 };
 
 export default Movies;
+// make a new <div> for each movie. The <div> should contain the movie's title, time and an <ul> for each genre.
